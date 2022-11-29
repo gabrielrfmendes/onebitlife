@@ -1,0 +1,22 @@
+import { 
+    View,
+    ScrollView,
+    Image,
+    Text
+} from 'react-native'
+
+export default function Start() {
+    return (
+        <View>
+            <ScrollView>
+                <View>
+                    <Image source={require('../../assets/icons/logo3.png')} />
+                </View>
+                <Text>
+                    Vamos transformar sua vida {'\n'} em jogo, buscando sempre {'\n'}{'...'}
+                    o melhor nível.
+                </Text>
+            </ScrollView>
+        </View>
+    )
+}
